@@ -31,4 +31,4 @@ It is difficult to scale ACID, so we need to combine ACID and BASE inorder to sc
 
 - There's also what I'll call a multi-tenant pretend cloud. I'm a cloud vendor, but I really don't have a cloud application. And so what they have is one bunch of application code. And then they have little tiny single-instance relational databases, one for each client. And then they say overall, we've got like 1,000 clients, but you also have like 1,000 databases.
 
-![image info](./images/16.png)
+  ![image info](./images/16.png)
