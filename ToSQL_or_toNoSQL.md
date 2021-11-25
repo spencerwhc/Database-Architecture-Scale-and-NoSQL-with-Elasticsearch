@@ -15,27 +15,27 @@ ACID and the BASE acronyms
 **Examples for ACID**
 
 Atomaic consistency, it will block the x=10 until all user have seen x = 20 , then it will change to x=10
-![image info](./images/1.png)
-![image info](./images/2.png)
-![image info](./images/3.png)
+![image info](../images/1.png)
+![image info](../images/2.png)
+![image info](../images/3.png)
 
 **Examples for BASE**
 
 Eventual consistency, all the server will know x=42 at time 0, but when writter write x=10 into database, one of the server will change to x=10 at time 1 but other remains the same, same for x=20, in this moment, some user will see 42 or 10 or 20, eventually, all the server will updated to be x=20 as it has time of 2.
-![image info](./images/4.png)
-![image info](./images/5.png)
-![image info](./images/6.png)
-![image info](./images/7.png)
-![image info](./images/8.png)
-![image info](./images/9.png)
+![image info](../images/4.png)
+![image info](../images/5.png)
+![image info](../images/6.png)
+![image info](../images/7.png)
+![image info](../images/8.png)
+![image info](../images/9.png)
 
 ### Database software
 
-![image info](./images/10.png)
+![image info](../images/10.png)
 
 ### Compromises
 
-![image info](./images/11.png)
+![image info](../images/11.png)
 
 - Global Unique Identifier that's a combination of random numbers and the current time that are carefully constructed to be global. And then that becomes kind of your primary key.
 - Transactions ensure that on an ACID-based database that you're not getting stale data.
